@@ -1,0 +1,112 @@
+@media (max-width:600px){
+    
+    .nav h2{
+        
+        color: #000000;
+        font-size: 7vw;
+    }
+    .nav{
+        height: 70px;
+        gap: 21vw;
+    }
+    .nav-part2 ul a{
+        display: none;
+        font-size: 3vw;
+
+    } 
+    .nav-part2 i{
+        font-size: 6vw;
+        display: block;
+    }
+    .nav ul button{
+        display: none;
+    }
+    .content{
+        height: 60%;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 70%;
+        padding: 0 0;
+        /* background-color: red; */
+
+    }
+    .left h1{
+        line-height: 10vw;
+        padding-left: 9vw;
+        padding-top: 15vw;
+        width: 80%;
+        font-size: 10vw;
+
+    }
+    .left p{
+        line-height: 4vw;
+        font-size: 4vw;
+        width: 75%;
+        padding-top: 2vw;
+        padding-left: 9vw;
+    }
+    .left button{
+        padding: 2vw 2vw;
+        margin-top: 3vw;
+        font-size: 4vw;
+        margin-left: 9vw;
+    }
+    .right{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        height: 40%;
+    }
+    .right img{
+        padding: 0 0;
+    }
+    .left2{
+        height: 60%;
+        /* background-color: aqua; */
+        width: 83.5%;
+        
+    }
+    .content2{
+        margin-top: 0;
+        height: 85%;
+        flex-direction: column;
+    }
+    .right2{
+        height: 20%;
+    }
+    .right{
+        display: none;
+    }
+    .right2{
+        height: 100%;
+        width: 95%;
+        /* background-color: aquamarine; */
+    }
+    .right2 h1{
+        padding-left: 5vw;
+        font-size: 9vw;
+        padding-top: 3vw;
+    }
+    .right2 p{
+        font-size: 4vw;
+        line-height: 5vw;
+        padding-left: 7vw;
+    }
+    .right2 button{
+        font-size: 5vw;
+        margin-top: 6vw;
+        /* margin-bottom: 1vw; */
+        margin-left: 7vw;
+        box-shadow: 0px 1px 10px purple;
+    }
+    footer{
+        height: 40px;
+
+    }
+    footer h3{
+        padding-top: 2.5vw;
+        font-size: 4vw;
+    }
+}
